@@ -40,4 +40,4 @@ for link in soup.find_all('a'):
     url = link.get('href')
     if url.startswith("http"):
         ip = socket.gethostbyname(url.split("/")[2])
-        if ip == ip_address:
+        if ip ==ip_address:
